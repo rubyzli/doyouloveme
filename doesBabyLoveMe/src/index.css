@@ -1,6 +1,8 @@
 body, html, #root {
   height: 100%;
+
   margin: 0;
+  background-color: lightpink;
 }
 
 .App {
@@ -13,7 +15,7 @@ img {
   height: auto;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .App {
     min-height: 100vh;
     display: flex;
@@ -24,4 +26,4 @@ img {
   img {
     max-width: 300px;
   }
-}
+} */
